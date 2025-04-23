@@ -1,12 +1,39 @@
-# React + Vite
+🚀 React Chatbot App (Vite + CSS Modules)
+This project is a React + Vite application featuring:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💬 A floating internal chatbot widget (with FAQs, avatars, and typing indicator)
 
-Currently, two official plugins are available:
+⚡️ Vite-powered fast refresh and dev experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 CSS Modules for scoped component styling
 
-## Expanding the ESLint configuration
+🔍 Keyword-based smart FAQ matching
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Folder Structure
+
+src/
+├── components/        # Chatbot components (Widget, Input, FAQ, etc.)
+├── data/              # FAQ JSON data
+├── assets/            # Avatars (robot.png, user.png)
+├── App.jsx            # Main app entry
+├── index.css          # Global styles
+├── main.jsx           # Vite app bootstrap
+✅ Features
+🧠 Rule-based chatbot with keyword matching
+
+👤 User and 🤖 Bot message styling with avatars
+
+📱 Fully responsive: works on mobile and desktop
+
+✨ Typing animation for realistic replies
+
+🔄 Auto scroll-to-bottom on message send
+
+🛠 Getting Started
+
+npm install
+npm run dev
+Visit: http://localhost:5173
+
+📦 Build for Production
+npm run build
